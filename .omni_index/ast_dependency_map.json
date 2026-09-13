@@ -1,0 +1,655 @@
+[
+  {
+    "file": "patch_nvfp4_utils_sw_e2m1.py",
+    "dependencies": [
+      "sys"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "Dockerfile",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "integrate_cuda_fp4_extension.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "grouped_mm_gb10_native_v109.cu",
+    "dependencies": [
+      "cudaTypedefs.h",
+      "cutlass/cutlass.h",
+      "c10/cuda/CUDAGuard.h",
+      "torch/all.h",
+      "grouped_mm_c3x.cuh"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "build.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "fix_dispatcher_flag_v115.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docker-compose.yml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "OPTIMIZATIONS.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "integrate_gb10_native_v109.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "E=512,N=512,device_name=NVIDIA_GB10,dtype=fp8_w8a8.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "fix_nvfp4_emulation_backend.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "stop-cluster.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "grouped_mm_gb10_native.cu",
+    "dependencies": [
+      "cudaTypedefs.h",
+      "cutlass/cutlass.h",
+      "c10/cuda/CUDAGuard.h",
+      "torch/all.h",
+      "grouped_mm_c3x.cuh"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "scaled_mm_blockwise_sm121_fp8_dispatch.cuh",
+    "dependencies": [
+      "cutlass_gemm_caller.cuh",
+      "scaled_mm.cuh"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "integrate_gb10_sm121.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "patch_cccl_fp4.sh",
+    "dependencies": [
+      "nv_fp4_dummy.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "fix_qwen3_next_prefix.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "fix_dispatcher_v2.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "VERSION",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "integrate_sm121_fp8_fix_v2.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "scaled_mm_sm121_fp8_dispatch.cuh",
+    "dependencies": [
+      "cutlass_gemm_caller.cuh",
+      "scaled_mm.cuh"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "NVFP4_BREAKTHROUGH_DGX_SPARK.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "push.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docker-compose.worker.yml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "success"
+  },
+  {
+    "file": "LICENSE",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "start-cluster.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "fix_capability_121_v112.py",
+    "dependencies": [
+      "os",
+      "re",
+      "sys"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "nv_fp4_dummy.h",
+    "dependencies": [
+      "cuda_runtime.h",
+      "stdint.h",
+      "cuda_fp16.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "fix_flashinfer_nvfp4_moe_backend.py",
+    "dependencies": [
+      "sys",
+      "os"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "fix_cmake_sm120_archs_v113_corrected.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "fix_mtp_nvfp4_exclusion.py",
+    "dependencies": [
+      "sys",
+      "os"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "scaled_mm_sm121_fp8.cu",
+    "dependencies": [
+      "scaled_mm_kernels.hpp",
+      "scaled_mm_sm121_fp8_dispatch.cuh",
+      "cutlass_extensions/epilogue/scaled_mm_epilogues_c3x.hpp"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cmake_patch_gb10_nvfp4_v6_full_kernels.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "scaled_mm_c3x_sm121.cu",
+    "dependencies": [
+      "c3x/scaled_mm_helper.hpp",
+      "c3x/scaled_mm_kernels.hpp"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "scaled_mm_blockwise_sm121_fp8.cu",
+    "dependencies": [
+      "scaled_mm_kernels.hpp",
+      "scaled_mm_blockwise_sm121_fp8_dispatch.cuh",
+      "cutlass_extensions/epilogue/scaled_mm_epilogues_c3x.hpp"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "patch_flashinfer_fp4.sh",
+    "dependencies": [
+      "re",
+      "nv_fp4_dummy.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "entrypoint.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "fix_flashinfer_e2m1_sm121.py",
+    "dependencies": [
+      "sys",
+      "shutil",
+      "os"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".gitignore",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/cuda_fp4_gemm.h",
+    "dependencies": [
+      "cuda_fp4.h",
+      "cuda_runtime.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/test_ptx_v2.cu",
+    "dependencies": [
+      "vector",
+      "nvfp4_gemm_kernel.cuh",
+      "iostream",
+      "nvfp4_tcgen05_ptx_v2.cuh",
+      "random"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/build.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/nvfp4_types.cuh",
+    "dependencies": [
+      "cuda_runtime.h",
+      "cmath",
+      "stdint.h",
+      "cuda_fp16.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/test_ptx_v2.ptx",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/test_nvfp4_gemm.cu",
+    "dependencies": [
+      "cassert",
+      "iomanip",
+      "vector",
+      "nvfp4_gemm_kernel.cuh",
+      "iostream",
+      "cmath",
+      "random"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/test_inline_sass.cu",
+    "dependencies": [
+      "cuda_runtime.h",
+      "stdio.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/nvfp4_gemm_kernel.cuh",
+    "dependencies": [
+      "mma.h",
+      "cuda_fp8.h",
+      "cstdio",
+      "cuda_runtime.h",
+      "nvfp4_types.cuh",
+      "cuda_fp16.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/test_nvfp4_types.cu",
+    "dependencies": [
+      "cassert",
+      "iomanip",
+      "iostream",
+      "nvfp4_types.cuh",
+      "cmath"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/test_ptx_v1.cu",
+    "dependencies": [
+      "vector",
+      "nvfp4_tcgen05_ptx.cuh",
+      "nvfp4_gemm_kernel.cuh",
+      "iostream",
+      "random"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/build_manual.sh",
+    "dependencies": [
+      "pybind11",
+      "cuda_fp4_ext",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/cuda_fp4.h",
+    "dependencies": [
+      "cuda_fp4.h",
+      "stdint.h",
+      "cuda_fp8.h",
+      "cuda_runtime.h",
+      "cuda_fp16.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/Makefile",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/nvfp4_tcgen05_binary.cuh",
+    "dependencies": [
+      "cstdio",
+      "cuda_fp8.h",
+      "cuda_runtime.h",
+      "nvfp4_types.cuh",
+      "cuda_fp16.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/cuda_fp4_kernels.cu",
+    "dependencies": [
+      "nvfp4_gemm_kernel_optimized.cuh",
+      "cuda_fp4.h",
+      "nvfp4_gemm_simple_hw.cuh",
+      "nvfp4_gemm_kernel.cuh",
+      "cuda_runtime.h",
+      "nvfp4_types.cuh"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/test_nvfp4_gemm_hardware.cu",
+    "dependencies": [
+      "nvfp4_gemm_simple_hw.cuh",
+      "iomanip",
+      "vector",
+      "nvfp4_gemm_kernel.cuh",
+      "iostream",
+      "cmath",
+      "random"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/test_mma_disasm.cu",
+    "dependencies": [
+      "mma.h",
+      "cuda_runtime.h",
+      "cuda_fp16.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "success"
+  },
+  {
+    "file": "cutlass_nvfp4/test_cublas_fp4.cu",
+    "dependencies": [
+      "cublas_v2.h",
+      "cuda_runtime.h",
+      "stdio.h",
+      "cublasLt.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/test_ptx_minimal.cu",
+    "dependencies": [
+      "cstdint",
+      "iostream",
+      "cuda_runtime.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/README_CUDA_FP4_EXTENSION.md",
+    "dependencies": [
+      "cuda_fp4_gemm.h",
+      "cuda_fp4.h",
+      "cuda_fp4_ext",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/benchmark_fp4.cu",
+    "dependencies": [
+      "cuda_fp4.h",
+      "nvfp4_gemm_simple_hw.cuh",
+      "vector",
+      "cstdio",
+      "cuda_runtime.h",
+      "cstdlib",
+      "chrono",
+      "cublas_v2.h",
+      "nvfp4_types.cuh",
+      "cuda_fp16.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/nvfp4_gemm_simple_hw.cuh",
+    "dependencies": [
+      "cuda_fp8.h",
+      "cstdio",
+      "nvfp4_gemm_kernel.cuh",
+      "cuda_runtime.h",
+      "nvfp4_types.cuh",
+      "cuda_fp16.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/setup.py",
+    "dependencies": [
+      "setup",
+      "torch.utils",
+      "torch",
+      "os",
+      "setuptools",
+      "cpp_extension",
+      "cuda_fp4_ext"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/INTEGRATION_GUIDE.md",
+    "dependencies": [
+      "cuda_fp4.h",
+      "torch",
+      "name",
+      "vllm",
+      "AutoModelForCausalLM",
+      "NVFP4LinearLayer",
+      "time",
+      "vllm_nvfp4_backend",
+      "LLM",
+      "quantize_model_to_nvfp4",
+      "transformers",
+      "cuda_fp4_ext"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/nvfp4_tcgen05_ptx.cuh",
+    "dependencies": [
+      "cstdint",
+      "cstdio",
+      "cuda_fp8.h",
+      "cuda_runtime.h",
+      "nvfp4_types.cuh"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/test_pytorch_extension.py",
+    "dependencies": [
+      "sys",
+      "cuda_fp4_ext",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/nvfp4_gemm_kernel_hardware.cuh",
+    "dependencies": [
+      "mma.h",
+      "cuda_fp8.h",
+      "cstdio",
+      "cuda_runtime.h",
+      "nvfp4_types.cuh",
+      "cuda_fp16.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/test_cuda_fp4_extension.cu",
+    "dependencies": [
+      "cuda_fp4_gemm.h",
+      "cuda_fp4.h",
+      "stdio.h",
+      "cuda_runtime.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/vllm_nvfp4_backend.py",
+    "dependencies": [
+      "torch.nn",
+      "Parameter",
+      "torch",
+      "cuda_fp4_ext",
+      "typing",
+      "Any"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/nvfp4_tcgen05_ptx_v2.cuh",
+    "dependencies": [
+      "cstdio",
+      "cuda_fp8.h",
+      "cuda_runtime.h",
+      "nvfp4_types.cuh",
+      "cuda_fp16.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cutlass_nvfp4/cuda_fp4_pytorch_ext.cpp",
+    "dependencies": [
+      "torch/extension.h",
+      "torch",
+      "vector",
+      "cuda_runtime.h",
+      "cuda_fp4_ext"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  }
+]
